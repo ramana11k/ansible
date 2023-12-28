@@ -1,0 +1,12 @@
+- name: install and run nginx
+  hosts: node
+  tasks: 
+  - name: installing nginx
+    ansible.inbuilt.package:
+      name: nginx
+      state: present
+
+  - name: start nginx
+    ansible.inbuilt.service:
+      name:  nginx 
+      state: started

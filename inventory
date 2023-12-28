@@ -3,8 +3,8 @@
 192.187.56.50
 192.255.55.10
 
-[web]
-54.157.245.78
+[node]
+184.73.136.53
 
 [catalogue]
 192.187.56.6
@@ -17,6 +17,6 @@
 192.187.56.11
 
 [roboshop:children]
-web
+node
 catalogue
 cart
