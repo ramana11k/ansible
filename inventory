@@ -3,22 +3,22 @@
 192.187.56.50
 192.255.55.10
 
-[webservers]
+[web]
 192.187.56.3
 192.187.56.4
 192.187.56.5
 
-[catalogueservers]
+[catalogue]
 192.187.56.6
 192.187.56.7
 192.187.56.8
 
-[cartservers]
+[cart]
 192.187.56.9
 192.187.56.10
 192.187.56.11
 
 [roboshop:children]
-webservers
-catalogueservers
-cartservers
+web
+catalogue
+cart
