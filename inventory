@@ -1,22 +1,22 @@
-[Web]
+[web]
 192.187.56.3
 192.187.56.4
 192.187.56.5
 
-[Catalogue]
+[catalogue]
 192.187.56.6
 192.187.56.7
 192.187.56.8
 
-[Cart]
+[cart]
 192.187.56.9
 192.187.56.10
 192.187.56.11
 
 [Roboshop:children]
-Web
-Catalogue
-Cart
+web
+catalogue
+cart
 
 192.187.56.30
 192.187.56.40
