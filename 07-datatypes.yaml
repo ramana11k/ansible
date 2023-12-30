@@ -1,0 +1,27 @@
+- name: check data types
+  hosts: localhost
+  vars:
+    NAME: Shivakumar
+    SKILLS:
+      - Devops
+      - ShellScript
+      - Docker
+      - Linus
+    Experience:
+      Devops: 7
+      Docker: 4
+      Linux: 2
+    Trainer: yes
+  tasks:
+    - name: check the name
+      ansible.builtin.debug:
+        msg: "Name of the person: {{NAME}}"
+    - name: check the skills
+      ansible.builtin.debug:
+        msg: "Skills are : {{SKILLS}}"
+    - name: check the experience
+      ansible.builtin.debug:
+        msg: "Experience: {{Experience}}"
+    - name: check the bulean
+      ansible.builtin.debug:
+        msg: "Is he trainer: {{Trainer}}"    
