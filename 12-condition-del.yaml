@@ -6,6 +6,8 @@
       register: user
       ignore_errors: true
 
-    - name: print user output
+    - name: check user output
       ansible.builtin.debug:
-        msg: "user output is {{user}}"
+        msg: "user output is {{user.rc}}"
+    
+    
