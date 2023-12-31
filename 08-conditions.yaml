@@ -7,4 +7,4 @@
     
     - name: print roboshop user
       ansible.builtin.debug:
-        msg: " output name is {{user}} "
+        msg: " User output name:  {{user}} "
