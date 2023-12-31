@@ -6,6 +6,10 @@
       register: user
       ignore_errors: true
     
-    - name: print roboshop user
+    - name: print variable value
       ansible.builtin.debug:
-        msg: " User output name:  {{user}} "
+        msg: "User output name:  {{user}} "
+    
+    - name: print exit status or return code
+      ansible.builtin.debug:
+        msg: "Exit status is : {{user.rc}}"
